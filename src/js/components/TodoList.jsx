@@ -17,10 +17,10 @@ const TodoList = () => {
         <div className="container">
             <h1>Mis Tareas</h1>
             <ul>
-                {/* Componente para añadir tareas */}
+                {/* Añadir tareas */}
                 <TaskInput onAddTask={addTask} />
 
-                {/* Lista de tareas o mensaje de vacío */}
+                {/* Lista de tareas */}
                 {tasks.length === 0 ? (
                     <li>No hay tareas aún</li>
                 ) : (
